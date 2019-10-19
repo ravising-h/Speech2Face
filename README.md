@@ -5,7 +5,7 @@
 
 #### Requirements
 
-* Pyhton 3.5 or above
+* Python 3.5 or above
 * Keras
 * TensorFlow
 * Librosa
