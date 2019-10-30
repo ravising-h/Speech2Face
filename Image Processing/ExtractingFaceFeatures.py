@@ -9,6 +9,7 @@ from PIL import Image
 import keras.layers
 import dlib
 from keras_vggface.vggface import VGGFace
+from keras.applications.vgg16 import preprocess_input
 import random
 from tqdm import tqdm
 
@@ -38,7 +39,9 @@ def detect(gray, frame):
         h = face.rect.bottom() - y
     frame = frame[x:x + w,y:y+h]
     frame = np.array(frame.resize((224,224))).reshape((1,224,224,3))
-    return vgg_features.predict(frame), frame_crop
+    frame = np.expand_dims(frame, axis=0)
+    frame = preprocess_input(frame)
+    return vgg_features.predict(frame[0]), frame[0]
 
 ##############################
 # Preparing Model
