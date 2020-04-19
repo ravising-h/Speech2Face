@@ -3,7 +3,7 @@
 [Link to The Paper](https://arxiv.org/pdf/1905.09773.pdf)
 ![](https://thumbs-prod.si-cdn.com/LvZAAPgi3v9zreVi5wB8Y3jGWN4=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/22/b3/22b3449f-8948-44b9-967c-10911b729494/ahr0cdovl3d3dy5saxzlc2npzw5jzs5jb20vaw1hz2vzl2kvmdawlzewni8wmjgvb3jpz2luywwvywktahvtyw4tdm9py2utznjvbs1mywnl.jpeg)
 
-![article](https://medium.com/@ravisingh93362/speech-to-face-29606589656c)
+[article](https://medium.com/@ravisingh93362/speech-to-face-29606589656c)
 
 #### Requirements
 
